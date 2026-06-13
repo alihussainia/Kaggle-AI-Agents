@@ -1,0 +1,13 @@
+{
+  "name": "Antigravity Research Environment",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "antigravity.ide-extension"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}
