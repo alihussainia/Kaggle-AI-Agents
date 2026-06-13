@@ -1,0 +1,10 @@
+{
+  "name": "Antigravity 2.0",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "customizations": {
+    "antigravity": {
+      "ide": "Antigravity IDE",
+      "cli": "Antigravity CLI"
+    }
+  }
+}
